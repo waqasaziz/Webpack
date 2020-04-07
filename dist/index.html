@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Checkout</title>
+      <link rel="stylesheet" href="site.css">
+    </head>
+    <body>
+      <div class="d-flex flex-column sticky-footer-wrapper">
+        <nav class="navbar navbar-expand-lg border-bottom mb-5">
+          <div class="container">
+            <span class="navbar-brand mr-auto">Checkout</span>
+           
+            <ul class="navbar-nav">
+              <li class="nav-item active p-2"> Shipping  </li>
+              <li class="nav-item active p-2"> Payment  </li>
+              <li class="nav-item active p-2"> Review  </li>
+            </ul>
+          </div>
+        </nav>
+        <main role="main" class="container">
+          <div class=" mb-3">
+       
+            <div class="row">
+              <div class="col-md-4 order-md-2 mb-4">
+                <div class="cart cart card mb-4 box-shadow">
+                  <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Order Summary</h4>
+                  </div>
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 order-md-1">
+                  <div class="Shipping card mb-4 box-shadow">
+                    <div class="card-header">
+                      <h4 class="my-0 font-weight-normal">Order Summary</h4>
+                    </div>
+                    <div class="card-body">
+                      <form class="needs-validation" novalidate="">
+                        <div class="row">
+                          
+                          <div class="col-md-6 mb-3">
+                            <label for="firstName" class="required">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                              Valid first name is required.
+                            </div>
+                          </div>
+    
+                          <div class="col-md-6 mb-3">
+                            <label for="lastName" class="required">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                              Valid last name is required.
+                            </div>
+                          </div>
+                        </div>
+                    
+                    
+                        <div class="mb-3">
+                          <label for="email" class="required">Email <span class="text-muted"></span></label>
+                          <input type="email" class="form-control" id="email">
+                          <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                          </div>
+                        </div>
+    
+                        <div class=" mb-3">
+                          <label for="country" class="required">Shipping Country</label>
+                          <select class="custom-select d-block w-100" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United Kingdom</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid country.
+                          </div>
+                        </div>
+    
+                        <div class="row">
+                          <div class="col-md-4 mb-3">
+                            <label for="country-code" class="required">Phone Number</label>
+                            <select class="custom-select d-block w-100" id="country-code" required="">
+                              <option value="">Choose...</option>
+                              <option>+44</option>
+                            </select>
+                            <div class="invalid-feedback"> Please select a valid Country code. </div>
+                          </div>
+                          <div class="col-md-8 mb-3">
+                            <label for="phone-number">&nbsp;</label>
+                            <input type="email" class="form-control" id="phone-number">
+                            <div class="invalid-feedback">
+                              Please enter a valid phone number.
+                            </div>
+                          </div>
+                        </div>
+                    
+                        <div class="mb-3">
+                          <label for="address-line-1" class="required">Address line 1</label>
+                          <input type="text" class="form-control" id="address-line-1" required="">
+                          <div class="invalid-feedback">
+                            Please enter your address line 1.
+                          </div>
+                        </div>
+                    
+                        <div class="mb-3">
+                          <label for="address-line-2" >Address line 2 (Optional)</label>
+                          <input type="text" class="form-control" id="address-line-2" > 
+                        </div>
+    
+                        <div class="mb-3">
+                          <label for="postcode" class="required">Postcode</label>
+                          <input type="text" class="form-control" id="postcode" required="">
+                          <div class="invalid-feedback">
+                            Please enter your postcode.
+                          </div>
+                        </div>
+                      
+                        <div class="mb-3">
+                          <label for="city-town" class="required">City/Town</label>
+                          <input type="text" class="form-control" id="city-town" required="">
+                          <div class="invalid-feedback">
+                            Please enter your city /town.
+                          </div>
+                        </div>
+    
+                      </form>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary btn-lg btn-block mt-2" type="submit">Continue to Payment&gt;</button>
+              </div>
+            </div>
+          </div>
+        </main>
+        
+        <footer class="footer">
+            <div class="row border-bottom">
+              <div class="col-md-6">
+                <ul class="list-inline ml-5">
+                  <li class="list-inline-item"><a class="text-xs-center" target="_blank" href="#">Privacy Policy</a></li>
+                  <li class="list-inline-item"><a class="text-xs-center" target="_blank" href="#">|</a></li>
+                  <li class="list-inline-item"><a class="text-xs-center" target="_blank" href="#">Cookie Policy</li>
+                  <li class="list-inline-item"><a class="text-xs-center" target="_blank" href="#">|</li>
+                  <li class="list-inline-item"><a class="text-xs-center" target="_blank" href="#">Terms & Conditions</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="list-inline float-right mr-5">
+                  <li class="list-inline-item"><a class="text-xs-center" target="_blank" href="#">2019 Deckers Europe LTD</a></li>
+                  <li class="list-inline-item"><a class="text-xs-center" target="_blank" href="#">|</a></li>
+                  <li class="list-inline-item"><a class="text-xs-center" target="_blank" href="#">130 Shaftesbury Avenue, London, W1D 5EU, United Kingdom</li>
+                </ul>
+              </div>
+
+            </div>
+        </footer>
+    
+      <script src="site.js"></script> 
+    </body>
+</html>

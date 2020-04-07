@@ -1,0 +1,14 @@
+@import "./pre_default";
+@import "~bootstrap/scss/bootstrap";
+@import "./bootstrap_ext/navbar";
+@import "./bootstrap_ext/button";
+@import "./bootstrap_ext/card";
+
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts/";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+
+@import "./components/form";
+@import "./components/footer";
